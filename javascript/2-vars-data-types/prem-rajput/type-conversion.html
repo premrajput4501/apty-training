@@ -1,38 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Assignment 4 - Simple Type Conversion</title>
+    <title>Assignment 4 - Type Conversion</title>
 </head>
 <body>
 
-    <h2>Assignment 4 -  Basic Type Conversion Results</h2>
+    <h2>Assignment 4 - Type Conversion </h2>
 
     <p id="string-conversion"></p>
     <p id="number-conversion"></p>
     <p id="boolean-conversion"></p>
 
-    <script>
-
-        var myString = "420";
-        var myNumber = 23;
-        var myBoolean = true;
-
-        var stringToNumber = Number(myString);
-        var stringToBoolean = Boolean(myString);
-
-        var numberToString = String(myNumber);
-        var numberToBoolean = Boolean(myNumber);
-
-        var booleanToString = String(myBoolean);
-        var booleanToNumber = Number(myBoolean);
-
-        document.getElementById("string-conversion").innerText = "String '420' to Number: " + stringToNumber + ", to Boolean: " + stringToBoolean;
-
-        document.getElementById("number-conversion").innerText = "Number 23 to String: " + numberToString + ", to Boolean: " + numberToBoolean;
-
-        document.getElementById("boolean-conversion").innerText = "Boolean true to String: " + booleanToString + ", to Number: " + booleanToNumber;
-
-    </script>
+    <script src="./scripts/type-conversion.js"></script>
 
 </body>
 </html>
