@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 3 - Data Types Test</title>
+</head>
+<body>
+
+    <h2>Assignment 3 - JavaScript Data Types</h2>
+    <p id="string-type"></p>
+    <p id="number-type"></p>
+    <p id="boolean-type"></p>
+    <p id="undefined-type"></p>
+    <p id="null-type"></p>
+    <p id="symbol-type"></p>
+    <p id="object-type"></p>
+
+    <script>
+        
+        var stringVar = "Prem Rajput";         
+        var numberVar = 42;               
+        var booleanVar = true;          
+        var undefinedVar;            
+        var nullVar = null;              
+        var symbolVar = Symbol("id");     
+        var objectVar = { name: "Prem Rajput" };
+
+        document.getElementById("string-type").innerText = stringVar + " :  " + typeof stringVar;
+        document.getElementById("number-type").innerText = numberVar + " :  " + typeof numberVar;
+        document.getElementById("boolean-type").innerText = booleanVar + " :  " + typeof booleanVar;
+        document.getElementById("undefined-type").innerText = undefinedVar + " :  " + typeof undefinedVar;
+        document.getElementById("null-type").innerText = nullVar + " :  " + typeof nullVar;
+        document.getElementById("symbol-type").innerText = symbolVar + " :  " + typeof symbolVar;
+        document.getElementById("object-type").innerText = objectVar + " :  " + typeof objectVar;
+
+    </script>
+
+</body>
+</html>
