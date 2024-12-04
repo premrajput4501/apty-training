@@ -1,11 +1,11 @@
-var result1 = "Name: Prem Rajput. Age: " + 5;
-document.getElementById("string-plus-number").innerText = "String + Number: " + result1;
-
-var result2 = true + 10;
-document.getElementById("boolean-plus-number").innerText = "Boolean + Number (true(1)+10): " + result2;
-
-var result3 = undefined + " World";
-document.getElementById("undefined-plus-string").innerText = "Undefined + String: " + result3;
-
-var result4 = null + 3;
-document.getElementById("null-plus-number").innerText = "Null + Number: " + result4;
+console.log("'5' + '10' = " + ("5" + "10"));
+console.log("5 + '10' = " + (5 + "10"));
+console.log("5 + 5 + '10' = " + (5 + 5 + "10"));
+console.log("'5' + 10 = " + ("5" + 10));
+console.log("true + 10 = " + (true + 10));
+console.log("false + 10 = " + (false + 10));
+console.log("5 + null = " + (5 + null));
+console.log("5 + undefined = " + (5 + undefined));
+console.log("'5' + null = " + ("5" + null));
+console.log("{} + '10' = " + ({} + "10"));
+console.log("Symbol('A') + '10' = Error! (Can't add a Symbol to a string)");

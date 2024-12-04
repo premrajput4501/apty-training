@@ -1,19 +1,35 @@
+const stringExample = "Heyy!";
+const numberExample = 42;
+const booleanExample = true;
+let undefinedExample;
+const nullExample = null;
+const symbolExample = Symbol("symbol");
+const objectExample = { name: "Prem Rajput", age: 23 };
 
-var myString = "420";
-var myNumber = 23;
-var myBoolean = true;
+document.getElementById("string-conversion").innerHTML = `
+            <b>String ("${stringExample}") Conversion:</b><br>
+            To Number: ${Number(stringExample)}<br>
+            To Boolean: ${Boolean(stringExample)}<br>
+            To String: ${String(stringExample)}<br>
+        `;
 
-var stringToNumber = Number(myString);
-var stringToBoolean = Boolean(myString);
+document.getElementById("number-conversion").innerHTML = `
+            <b>Number (${numberExample}) Conversion:</b><br>
+            To Number: ${Number(numberExample)}<br>
+            To Boolean: ${Boolean(numberExample)}<br>
+            To String: ${String(numberExample)}<br>
+        `;
 
-var numberToString = String(myNumber);
-var numberToBoolean = Boolean(myNumber);
+document.getElementById("boolean-conversion").innerHTML = `
+            <b>Boolean (${booleanExample}) Conversion:</b><br>
+            To Number: ${Number(booleanExample)}<br>
+            To Boolean: ${Boolean(booleanExample)}<br>
+            To String: ${String(booleanExample)}<br>
+        `;
 
-var booleanToString = String(myBoolean);
-var booleanToNumber = Number(myBoolean);
-
-document.getElementById("string-conversion").innerText = "String '420' to Number: " + stringToNumber + ", to Boolean: " + stringToBoolean;
-
-document.getElementById("number-conversion").innerText = "Number 23 to String: " + numberToString + ", to Boolean: " + numberToBoolean;
-
-document.getElementById("boolean-conversion").innerText = "Boolean true to String: " + booleanToString + ", to Number: " + booleanToNumber;
+document.getElementById("object-conversion").innerHTML = `
+            <b>Object Conversion:</b><br>
+            To Number: ${Number(objectExample)}<br>
+            To Boolean: ${Boolean(objectExample)}<br>
+            To String: ${String(objectExample)}<br>
+        `;
