@@ -1,6 +1,6 @@
 body {
 	font-family: "Roboto", sans-serif;
-	background-color: #ff3ea2;
+	background-color: #d9572c;
 	margin: 10;
 	padding: 0;
 	box-sizing: border-box;
@@ -10,8 +10,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #ff5656;
-	color: #00ff33;
+	background-color: #76a4a1;
+	color: #000000;
 	padding: 15px 20px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

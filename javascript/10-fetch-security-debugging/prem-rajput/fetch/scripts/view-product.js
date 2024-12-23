@@ -9,8 +9,7 @@ async function displayProducts(products) {
         productItem.innerHTML = `
 			<h3>${product.title}</h3>
 			<p>${product.description}</p>
-			<button onclick="viewProduct(${product.id})">View Details</button>
-    	`;
+			<button onclick="viewProduct(${product.id})">View Details</button>`;
         productListDiv.appendChild(productItem);
     });
 }
@@ -21,9 +20,9 @@ async function viewProduct(productId) {
     productDetailDiv.style.display = "block";
 
     productInfoDiv.innerHTML = `
-    <h2>${product.title}</h2>
-    <img src="${product.thumbnail}" alt="${product.title}" width="200" />
-    <p><strong>Description:</strong> ${product.description}</p>
-    <p><strong>Price:</strong> $${product.price}</p>
-  `;
+        <h2>${product.title}</h2>
+        <img src="${product.thumbnail}" alt="${product.title}" width="200" />
+        <p><strong>Description:</strong> ${product.description}</p>
+        <p><strong>Price:</strong> $${product.price}</p>
+    `;
 }
