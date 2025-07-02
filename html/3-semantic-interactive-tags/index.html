@@ -331,6 +331,42 @@
                             <li><strong>Explanation</strong>: Custom controls allow for a branded or unique user experience. By removing the <code>controls</code> attribute, you can design your own interface with HTML/CSS. JavaScript interacts with the media element through methods like <code>play()</code>, <code>pause()</code>, and properties like <code>currentTime</code> or <code>volume</code>. This approach is useful for advanced applications but requires additional development effort.</li>
                         </ul>
                     </details>
+
+                    <details>
+                        <summary>8. The <code>&lt;label&gt;</code> Tag for Accessibility</summary>
+                        <ul>
+                            <li><strong><code>&lt;label&gt;</code></strong>: Associates a text label with an input field.</li>
+                            <li><strong>Attributes</strong>:
+                                <ul>
+                                    <li><code>for</code>: Connects to the <code>id</code> of the input (e.g., <code>&lt;label for="email"&gt;</code>).</li>
+                                </ul>
+                            </li>
+                            <li><strong>Example</strong>:
+                                <pre>
+                    &lt;label for="email"&gt;Email:&lt;/label&gt;
+                    &lt;input type="email" id="email" /&gt;
+                                </pre>
+                            </li>
+                            <li><strong>Explanation</strong>: The <code>label</code> element enhances usability and accessibility by helping screen readers understand the purpose of input fields. Clicking a label also focuses the linked input.</li>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>9. The <code>&lt;button&gt;</code> Tag and Its Types</summary>
+                        <ul>
+                            <li><strong>Overview</strong>: Represents a clickable button that can submit forms, trigger scripts, or perform actions.</li>
+                            <li><strong>Attributes</strong>:
+                                <ul>
+                                    <li><code>type</code>: Can be "submit", "reset", or "button".</li>
+                                    <li><code>disabled</code>: Disables the button (boolean).</li>
+                                    <li><code>name</code>, <code>value</code>: Form data identifiers.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Explanation</strong>: Use <code>type="submit"</code> to send form data, <code>type="reset"</code> to clear inputs, and <code>type="button"</code> for JavaScript-triggered actions. Buttons are essential for interaction and control in UI design.</li>
+                        </ul>
+                    </details>
+                    
+                    
             </div>
         </div>
         <div class="header">
@@ -341,6 +377,7 @@
                     <li>Create a registration form with all input types and proper validations.</li>
                     <li>Build a multi-page website with working navigation links.</li>
                     <li>Add a video and an audio clip to a webpage with captions and descriptions.</li>
+                    <li>Build a form with proper <code>&lt;label&gt;</code> usage linked to inputs for name, email, and message. Style the labels for readability. Add a <code>&lt;button&gt;</code> to your form and demonstrate the difference between <code>type="submit"</code>, <code>type="reset"</code>, and <code>type="button"</code>.</li> 
                 </ul>
             </div>
         </div>
