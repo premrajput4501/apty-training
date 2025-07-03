@@ -1,167 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Training Topics</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Training Topics</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+                background-color: #f4f4f9;
+            }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                text-align: center;
+            }
 
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-        }
+            .container {
+                max-width: 1200px;
+                margin: 20px auto;
+                padding: 20px;
+                background: #fff;
+            }
 
-        .container .header {
-            display: flex;
-            flex-wrap: wrap;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+            .container .header {
+                display: flex;
+                flex-wrap: wrap;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
 
-        .container iframe {
-            width: 100%;
-            height: 100vh;
-        }
+            .container iframe {
+                width: 100%;
+                height: 100vh;
+            }
 
-        .topics, .assignments {
-            flex: 1;
-            min-width: 300px;
-            margin: 10px;
-        }
+            .topics,
+            .assignments {
+                flex: 1;
+                min-width: 300px;
+                margin: 10px;
+            }
 
-        h2 {
-            color: #333;
-            border-bottom: 2px solid #f4f4f9;
-            padding-bottom: 5px;
-        }
+            h2 {
+                color: #333;
+                border-bottom: 2px solid #f4f4f9;
+                padding-bottom: 5px;
+            }
 
-        ul {
-            padding: 0;
-            margin: 10px 0;
-            list-style: none;
-        }
+            ul {
+                padding: 0;
+                margin: 10px 0;
+                list-style: none;
+            }
 
-        ul li {
-            padding: 5px 0;
-        }
+            ul li {
+                padding: 5px 0;
+            }
 
-        ul li::before {
-            content: "•";
-            color: #333;
-            font-weight: bold;
-            display: inline-block;
-            width: 20px;
-        }
+            ul li::before {
+                content: "•";
+                color: #333;
+                font-weight: bold;
+                display: inline-block;
+                width: 20px;
+            }
 
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: #fff;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>HTML Projects</h1>
-    </header>
-    <div class="container">
-        <div class="header">
-            <div class="assignments">
+            footer {
+                text-align: center;
+                padding: 10px;
+                background: #333;
+                color: #fff;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Projects</h1>
+        </header>
+        <div class="container">
+            <div class="header">
+                <div class="assignments">
+                    <h2>Assignments</h2>
+                    <ol>
+                        <li>
+                            Project: Create a personal homepage using only
+                            semantic HTML. Include sections for About Me,
+                            Education, Skills, and Contact Form. Use
+                            <code>&lt;header&gt;</code>,
+                            <code>&lt;section&gt;</code>,
+                            <code>&lt;footer&gt;</code>,
+                            <code>&lt;form&gt;</code>, and semantic input types
+                            like <code>email</code> and <code>date</code>.
+                        </li>
+                        <br />
+                        <li>
+                            Project: Create a product landing page using only
+                            HTML. Include:
+                            <ul>
+                                <li>
+                                    A navigation menu using
+                                    <code>&lt;nav&gt;</code> with internal
+                                    anchor links (e.g., #features, #contact).
+                                </li>
+                                <li>
+                                    A header section with the product name and
+                                    tagline using
+                                    <code>&lt;header&gt;</code> and
+                                    <code>&lt;h1&gt;</code>.
+                                </li>
+                                <li>
+                                    A product description section using semantic
+                                    tags like <code>&lt;section&gt;</code>.
+                                </li>
+                                <li>
+                                    An embedded product video using
+                                    <code>&lt;iframe&gt;</code> or
+                                    <code>&lt;video&gt;</code>.
+                                </li>
+                                <li>
+                                    A table listing different product
+                                    plans/features using
+                                    <code>&lt;table&gt;</code>,
+                                    <code>&lt;thead&gt;</code>,
+                                    <code>&lt;tbody&gt;</code>, and
+                                    <code>&lt;caption&gt;</code>.
+                                </li>
+                                <li>
+                                    Use <code>&lt;footer&gt;</code> to include
+                                    copyright and contact details.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div>
                 <h2>Assignments</h2>
-                <ol>
-                    <li>
-                      Project: Create a personal homepage using only semantic HTML. Include sections for About Me, Education, Skills, and Contact Form. Use 
-                      <code>&lt;header&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;form&gt;</code>, and semantic input types like 
-                      <code>email</code> and <code>date</code>.
-                    </li><br>
-                    <li>
-                      Project: Create a product landing page using only HTML. Include:
-                      <ul>
-                        <li>A navigation menu using <code>&lt;nav&gt;</code> with internal anchor links (e.g., #features, #contact).</li>
-                        <li>A header section with the product name and tagline using <code>&lt;header&gt;</code> and <code>&lt;h1&gt;</code>.</li>
-                        <li>A product description section using semantic tags like <code>&lt;section&gt;</code>.</li>
-                        <li>An embedded product video using <code>&lt;iframe&gt;</code> or <code>&lt;video&gt;</code>.</li>
-                        <li>A table listing different product plans/features using <code>&lt;table&gt;</code>, <code>&lt;thead&gt;</code>, 
-                          <code>&lt;tbody&gt;</code>, and <code>&lt;caption&gt;</code>.</li>
-                        <li>Use <code>&lt;footer&gt;</code> to include copyright and contact details.</li>
-                      </ul>
-                    </li>
-                  </ol>
-                  
+                <details>
+                    <summary onclick="showContent(event)">
+                        Krishna Chaitanya Alapati
+                    </summary>
+                    <iframe
+                        data-src="./krishna-chaitanya-alapati/index.html"
+                    ></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">Saket Raj</summary>
+                    <iframe data-src="./saket-raj/index.html"></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">
+                        Parthasaradhi Manikonda
+                    </summary>
+                    <iframe
+                        data-src="./parthasaradhi-manikonda/index.html"
+                    ></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">
+                        Barlapudi Pallavi Krishna
+                    </summary>
+                    <iframe
+                        data-src="./barlapudi-pallavi-krishna/index.html"
+                    ></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">Surya</summary>
+                    <iframe data-src="./surya/index.html"></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">Mounika</summary>
+                    <iframe data-src="./mounika/index.html"></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">Esha</summary>
+                    <iframe data-src="./esha/index.html"></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">Resha</summary>
+                    <iframe data-src="./resha/index.html"></iframe>
+                </details>
+                <details>
+                    <summary onclick="showContent(event)">Yamini</summary>
+                    <iframe data-src="./yamini/index.html"></iframe>
+                </details>
             </div>
         </div>
-        <div>
-            <h2>Assignments</h2>
-            <details>
-                <summary onclick="showContent(event)">Krishna Chaitanya Alapati</summary>
-                <iframe data-src="./krishna-chaitanya-alapati/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Saket Raj</summary>
-                <iframe data-src="./saket-raj/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Parthasaradhi Manikonda</summary>
-                <iframe data-src="./parthasaradhi-manikonda/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Barlapudi Pallavi Krishna</summary>
-                <iframe data-src="./barlapudi-pallavi-krishna/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Surya</summary>
-                <iframe data-src="./surya/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Mounika</summary>
-                <iframe data-src="./mounika/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Esha</summary>
-                <iframe data-src="./esha/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Resha</summary>
-                <iframe data-src="./resha/index.html"></iframe>
-            </details>
-            <details>
-                <summary onclick="showContent(event)">Yamini</summary>
-                <iframe data-src="./yamini/index.html"></iframe>
-            </details>
-            
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2024 HTML Training Program</p>
-    </footer>
-    <script type="text/javascript">
-        // Function to display the selected content
-        function showContent(event) {
-            const iframes = document.getElementsByTagName('iframe');
-            Array.from(iframes).forEach(iframe => {
-                iframe.src = '';
-            });
-            event.target.nextElementSibling.src = event.target.nextElementSibling.dataset.src;
-        }
-    </script>
-</body>
+        <footer>
+            <p>&copy; 2025 HTML Training Program</p>
+        </footer>
+        <script type="text/javascript">
+            // Function to display the selected content
+            function showContent(event) {
+                const iframes = document.getElementsByTagName("iframe");
+                Array.from(iframes).forEach((iframe) => {
+                    iframe.src = "";
+                });
+                event.target.nextElementSibling.src =
+                    event.target.nextElementSibling.dataset.src;
+            }
+        </script>
+    </body>
 </html>
